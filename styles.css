@@ -103,6 +103,27 @@ body {
         }
     }
 
+    section.about-paysprint {
+        padding: 60px 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 45px;
+        img {
+            border-radius: 170px 10px 170px 10px;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            h5 {
+                font: 600 50px Abril Fatface;
+            }
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+
     footer {
         padding: 60px 65px;
         background-color: #000;
