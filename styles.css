@@ -265,6 +265,35 @@ body {
         }
     }
 
+    section.ready {
+        padding-bottom: 2rem;
+        /* main.txts { */
+            display: flex;
+            flex-direction: column;
+            /* gap: 25px; */
+            align-items: center;
+            /* div {
+                h6 {
+                    font: 700 30px sans-serif;
+                }
+                p {
+                    font: 500 16px sans-serif;
+                    color: #8B8B8B;
+                }   
+            }
+            button {
+                background-color: #F2C165;
+                border: none;
+                border-radius: 16px;
+                padding: 17px 46px;
+                font-size: 20px;
+            } */
+        /* } */
+        img {
+            cursor: pointer;
+        }
+    }
+
     footer {
         padding: 60px 65px;
         background-color: #000;
