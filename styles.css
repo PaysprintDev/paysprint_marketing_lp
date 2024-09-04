@@ -3,7 +3,7 @@ body {
     margin: unset;
 }
 
-.rewards {
+.marketing_lp {
     background-color: #fff;
     font-family: monospace;
 
@@ -202,7 +202,7 @@ body {
             align-content: center;
             justify-content: space-between;
             .img-links {
-                flex: 0 0 40%;
+                flex: 0 0 30%;
                 .footer-logo {
                     width: auto;
                     height: 65px;
@@ -216,11 +216,12 @@ body {
             }
             .links {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                gap: 75px;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 50px;
                 ul {
                     list-style: none;
                     margin: unset;
+                    padding: unset;
                     li {
                         font-weight: 700;
                         font-size: 23px;
@@ -233,6 +234,14 @@ body {
                             color: #FFFFFE;
                             text-decoration: none;
                         }
+                    }
+                }
+                .res {
+                    grid-column: span 2;
+                    div {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        column-gap: 1rem;
                     }
                 }
             }
@@ -288,7 +297,7 @@ body {
 
 
 @media screen and (max-width: 1200px) {
-    .rewards {
+    .marketing_lp {
         section.head {
             img {
                 width: 39%;
@@ -316,13 +325,14 @@ body {
 
 
 @media screen and (max-width: 1023px) {
-    .rewards {
+    .marketing_lp {
         footer {
             padding: 50px;
             width: 100%;
             div.first {
                 .links {
                     gap: 25px;
+                    grid-template-columns: repeat(3, 1fr);
                 }
             }
             div.last {
@@ -340,7 +350,7 @@ body {
 
 
 @media screen and (max-width: 900px) {
-    .rewards {
+    .marketing_lp {
         section.head {
             img {
                 width: 39%;
@@ -375,7 +385,7 @@ body {
 
 
 @media screen and (max-width: 700px) {
-    .rewards {
+    .marketing_lp {
         header {
             div {
                 padding: 15px 20px;
@@ -461,7 +471,7 @@ body {
 
 
 @media screen and (max-width: 600px) {
-    .rewards {
+    .marketing_lp {
         footer {
             div.first {
                 flex-direction: column;
@@ -475,7 +485,7 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .rewards {
+    .marketing_lp {
         header {
             div {
                 ul {
