@@ -404,8 +404,9 @@ body {
 @media screen and (max-width: 1200px) {
     .marketing_lp {
         section.head {
-            img {
-                width: 39%;
+            img.grp {
+                width: 363px;
+                padding: 40px 60px;
             }
             div.all {
                 .unlock {
@@ -423,6 +424,63 @@ body {
                     }
                 }
             }
+            div.elements {
+                h2 {
+                    font-size: 50px;
+                }
+                h6 {
+                    font-size: 20px;
+                }
+                button {
+                    padding: 10px 45px;
+                }
+            }
+        }
+
+        section.about-paysprint {
+            img {
+                width: 40%;
+            }
+            div {
+                justify-content: space-evenly;
+                h5 {
+                    font-size: 40px;
+                }
+                p {
+                    font-size: 21px;
+                }
+            }
+        }
+        
+        section.services {
+            h5.serv {
+                padding: 15px 10px;
+                font-size: 40px;
+            }
+            div.all-three {
+                div.each-components {
+                    flex-direction: column-reverse;
+                    h5 {
+                        font-size: 40px;
+                    }
+                }
+                div.other-components {
+                    justify-content: space-evenly;
+                    h5 {
+                        flex: unset;
+                    }
+                }
+            }
+        }
+
+        section.why-paysprint {
+            gap: 25px;
+            h5 {
+                font-size: 40px;
+            }
+            img {
+                width: 75%;
+            }
         }
 
         section.reviews {
@@ -436,6 +494,12 @@ body {
                 padding: 30px;
             }
         } 
+
+        section.ready {
+            img {
+                width: 75%;
+            }
+        }
     }
 }
 
