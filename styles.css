@@ -640,6 +640,22 @@ body {
             }
         }
 
+        section.about-paysprint {
+            padding: 40px;
+            flex-direction: column;
+            gap: 25px;
+            img {
+                width: 85%;
+                align-self: center;
+            }
+            div {
+                gap: 15px;
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+
         section.why {
             h3 {
                 font-size: 40px;
