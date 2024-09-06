@@ -408,6 +408,7 @@ body {
 @media screen and (max-width: 1200px) {
     .marketing_lp {
         section.head {
+            gap: 25px;
             img.grp {
                 width: 363px;
                 padding: 40px 60px;
@@ -430,7 +431,7 @@ body {
             }
             div.elements {
                 h2 {
-                    font-size: 50px;
+                    font-size: 45px;
                 }
                 h6 {
                     font-size: 20px;
@@ -536,8 +537,8 @@ body {
 @media screen and (max-width: 900px) {
     .marketing_lp {
         section.head {
-            img {
-                width: 39%;
+            img.grp {
+                padding: 20px;
             }
             div.all {
                 align-items: flex-start;
@@ -591,7 +592,6 @@ body {
 }
 
 
-
 @media screen and (max-width: 700px) {
     .marketing_lp {
         header {
@@ -604,12 +604,14 @@ body {
         }
 
         section.head {
-            flex-direction: column;
-            padding: 30px;
+            flex-direction: column-reverse;
+            padding: 40px;
             gap: 20px;
-            img {
-                width: auto;
+            img.grp {
+                width: 480px;
+                align-self: center;
             }
+
             div.all {
                 div.txts {
                     padding: 1rem 0rem;
@@ -630,6 +632,11 @@ body {
                     background-color: #fff;
                     color: #000;
                 }
+            }
+
+            div.elements {
+                width: 100%;
+                gap: 25px;
             }
         }
 
