@@ -321,7 +321,7 @@ body {
             }
             .links {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 gap: 50px;
                 ul {
                     list-style: none;
@@ -347,7 +347,11 @@ body {
                         display: grid;
                         grid-template-columns: repeat(2, 1fr);
                         column-gap: 1rem;
+                        width: 120%;
                     }
+                }
+                .service {
+                    padding-left: 20%;
                 }
             }
         }
@@ -572,6 +576,17 @@ body {
                 grid-template-columns: repeat(1, 1fr);
             }
         }
+
+        footer {
+            div.first {
+                .links {
+                    grid-template-columns: repeat(2, 1fr);
+                    .service {
+                        padding: unset;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -671,6 +686,9 @@ body {
                 gap: 35px;
                 .links {
                     grid-template-columns: repeat(2, 1fr);
+                    .res {
+                        grid-column: span 2;
+                    }
                 }
             }
         }
@@ -695,6 +713,17 @@ body {
 
         footer {
             padding: 20px;
+            div.first {
+                .links {
+                    grid-template-columns: repeat(2, 1fr);
+                    .res {
+                        grid-column: span 2;
+                        div {
+                            grid-template-columns: repeat(1, 1fr);
+                        }
+                    }
+                }
+            }
         }
     }
     
