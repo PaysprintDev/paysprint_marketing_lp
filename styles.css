@@ -25,7 +25,7 @@ body {
         background: #fff;
         width: 100%;
         z-index: 3;
-        div {
+        div { 
             padding: 20px 75px;
             display: flex;
             justify-content: space-between;
