@@ -93,6 +93,7 @@ body {
                 padding: 10px 65px;
                 font-weight: bold;
                 font-size: 20px;
+                cursor: pointer;
             }
         }
         img.grp {
