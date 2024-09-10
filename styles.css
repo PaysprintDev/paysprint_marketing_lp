@@ -287,28 +287,9 @@ body {
 
     section.ready {
         padding-bottom: 2rem;
-        /* main.txts { */
-            display: flex;
-            flex-direction: column;
-            /* gap: 25px; */
-            align-items: center;
-            /* div {
-                h6 {
-                    font: 700 30px sans-serif;
-                }
-                p {
-                    font: 500 16px sans-serif;
-                    color: #8B8B8B;
-                }   
-            }
-            button {
-                background-color: #F2C165;
-                border: none;
-                border-radius: 16px;
-                padding: 17px 46px;
-                font-size: 20px;
-            } */
-        /* } */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         img {
             cursor: pointer;
         }
@@ -358,6 +339,14 @@ body {
                             line-height: 15px;
                             color: #FFFFFE;
                             text-decoration: none;
+                        }
+                        p {
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: unset;
+                            color: #FFFFFE;
+                            text-decoration: none;
+                            cursor: not-allowed;
                         }
                     }
                 }
