@@ -111,6 +111,7 @@ body {
         display: flex;
         justify-content: space-between;
         gap: 45px;
+        background-image: url('./Images/noise_texture_bg.png');
         img {
             border-radius: 170px 10px 170px 10px;
         }
@@ -150,6 +151,7 @@ body {
                 display: flex;
                 align-items: center;
                 gap: 40px;
+                background-image: url('./Images/noise_texture_bg.png');
                 .grid-comps {
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
