@@ -31,7 +31,7 @@ body {
             justify-content: space-between;
             align-items: center;
             img {
-                width: 180px;
+                width: 95px;
             }
             ul {
                 list-style: none;
@@ -581,7 +581,7 @@ body {
 
         footer {
             padding: 50px;
-            width: 100%;
+            /* width: 100%; */
             div.first {
                 .links {
                     gap: 25px;
@@ -607,7 +607,7 @@ body {
         header {
             div {
                 padding: 20px 25px;
-                justify-content: unset;
+                /* justify-content: unset; */
             }
         }
 
