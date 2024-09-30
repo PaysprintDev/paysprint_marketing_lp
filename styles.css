@@ -31,7 +31,7 @@ body {
             justify-content: space-between;
             align-items: center;
             img {
-                width: 95px;
+                width: 205px;
             }
             ul {
                 list-style: none;
@@ -808,13 +808,16 @@ body {
     .marketing_lp {
         header {
             div {
+                img {
+                    width: 190px;
+                }
                 ul {
                     gap: 20px;
                     padding: unset;
                     li {
                         a {
                             line-height: 20px;
-                            font-size: 13px;
+                            font-size: 15px;
                         }
                     }
                 }
