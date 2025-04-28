@@ -31,7 +31,7 @@ body {
             justify-content: space-between;
             align-items: center;
             img {
-                width: 205px;
+                width: 60px;
             }
             ul {
                 list-style: none;
@@ -314,7 +314,11 @@ body {
 
     footer {
         padding: 60px 65px;
-        background-color: #000;
+        background-color: #1E1E1E;
+        background-image: url('./Images/footer/gridedline.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         color: #fff;
         display: flex;
         flex-direction: column;
@@ -327,8 +331,8 @@ body {
             .img-links {
                 flex: 0 0 30%;
                 .footer-logo {
-                    width: 202px;
-                    height: 190px;
+                    width: 150px;
+                    height: 150px;
                 }
                 div {
                     padding: 5px 35px;
@@ -808,16 +812,13 @@ body {
     .marketing_lp {
         header {
             div {
-                img {
-                    width: 190px;
-                }
                 ul {
                     gap: 20px;
                     padding: unset;
                     li {
                         a {
                             line-height: 20px;
-                            font-size: 15px;
+                            font-size: 13px;
                         }
                     }
                 }
